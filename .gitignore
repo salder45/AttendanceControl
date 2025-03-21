@@ -22,3 +22,53 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+# Ignore all of .idea folder by default
+.idea/*
+# Allow some project-specific settings
+!.idea/codeStyles/
+!.idea/deployment.xml
+!.idea/modules.xml
+!.idea/vcs.xml
+!.idea/workspace.xml
+
+#Ignore user-specific or OS-specific settings
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/libraries
+.idea/assetWizardSettings.xml
+.idea/jsLibraryMappings.xml
+.idea/shelf
+
+# Ignore IDE caches
+.idea/dataSources/
+.idea/dataSources.ids
+.idea/dataSources.local.xml
+.idea/sqlDataSources.xml
+.idea/dynamic.xml
+.idea/uiDesigner.xml
+.idea/httpRequests
+.idea/inspectionProfiles
+.idea/runConfigurations/
+
+.gradle
+**/build/
+!src/**/build/
+
+# Ignore Gradle GUI config
+gradle-app.setting
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
+
+# Avoid ignore Gradle wrappper properties
+!gradle-wrapper.properties
+
+# Cache of project
+.gradletasknamecache
+
+# Eclipse Gradle plugin generated files
+# Eclipse Core
+.project
+# JDT-specific (Eclipse Java Development Tools)
+.classpath
