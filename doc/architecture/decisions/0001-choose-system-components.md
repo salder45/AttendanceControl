@@ -15,8 +15,8 @@ This situation make us to prioritize the robustness of the system and the capaci
 
 This system is going to be composed by two parts each one with its own functions. 
 1. Main System: Manage the creation of data for students, teachers, events. This one needs to run on a local machine with a database server running on it. Also allows to synchronize data from the attendance system.
-2. Attendance System: Run for attendance taking, needs a local database, it can send attendance data with tne main system.
+2. Attendance System: Run for attendance taking, needs a local database, it can send attendance data with the main system.
 
 ## Consequences
 
-This make us to work on two systems and make us focus on make them able to synchronize the data (Generate an event, persons list/read data from the event)
+This makes us to work on two systems and make us focus on make them able to synchronize the data (Generate an event, persons list/read data from the event)

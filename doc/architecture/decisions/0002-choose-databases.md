@@ -13,8 +13,8 @@ a database to connect. The first database needs to be a more robust one. It can 
 
 ## Decision
 
-For the RDBMS one we choose Postgresql and for the embedded one we choose SQLite. This decision is made because these databases are the one that I am more familiar ones.   
+For the RDBMS one we choose PostgreSQL and for the embedded one we choose SQLite. This decision is made because these databases are the one that I am more familiar ones.   
 
 ## Consequences
 
-This decision make me to implements two connections in a same project, I didn't this before.
+This decision make me to implements two connections in a same project, I didn't do this before.
