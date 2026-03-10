@@ -4,7 +4,7 @@ Date: 2025-03-23
 
 ## Status
 
-Accepted
+Superceded by [4. Choose multitenant single application](0004-choose-multitenant-single-application.md)
 
 ## Context
 
